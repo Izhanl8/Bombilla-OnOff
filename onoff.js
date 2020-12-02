@@ -7,11 +7,4 @@ function light() {
     }
 }
 
-function encender() {
-    var image = document.getElementById('encender');
-    if (image.src.match("arriba")) {
-        image.src = "images/abajo.png";
-    } else {
-        image.src = "images/arriba.png";
-    }
-}
+
